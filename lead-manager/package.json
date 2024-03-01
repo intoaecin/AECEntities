@@ -21,7 +21,7 @@
     "esbuild": "^0.18.17",
     "pg": "^8.11.2",
     "source-map-support": "^0.5.21",
-    "typeorm": "^0.3.17",
+    "typeorm": "^0.3.20",
     "typeorm-aurora-data-api-driver": "^2.4.4"
   }
 }
