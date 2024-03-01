@@ -36,8 +36,8 @@
       }
     },
     "include": [
-      "lead-manager/**/*.ts",
-      "lead-manager/**/*.js",
+      "**/**/*.ts",
+      "**/**/*.js",
       ".env",
       ".env.*",
       "index.js",
