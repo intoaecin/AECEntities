@@ -1,0 +1,53 @@
+{
+    "compilerOptions": {
+      "lib": [
+        "es2018",
+        "dom",
+        "es5",
+        "es6"
+      ],
+      "rootDirs": [
+        "src"
+      ],
+      "target": "es2018",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "./build",
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "noFallthroughCasesInSwitch": true,
+      "inlineSourceMap": true,
+      "esModuleInterop": true,
+      "allowJs": true,
+      "baseUrl": "./",
+      "types": [
+        "node"
+      ],
+      "paths": {
+        "*": [
+          "node_modules/*"
+        ],
+        "config/*": [
+          "config/*"
+        ]
+      }
+    },
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.js",
+      ".env",
+      ".env.*",
+      "index.js",
+      "jest.config.ts",
+      "config/*.config.ts" // for *.con, "src/repository/integration/ClientIntegrations.js"fig.js files
+      ,
+      "index.ts",
+    ],
+    "exclude": [
+      "node_modules",
+      "./build/**/*"
+    ]
+  }
